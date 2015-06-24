@@ -1,0 +1,6 @@
+{
+  "name": "MyTestGame v1.0",
+  "sources": ["src/*", "assets/"],
+  "output": "build/",
+  "love": "C:/love/love.exe"
+}
