@@ -36,6 +36,14 @@ Easy building of [LÖVE](https://love2d.org) .love files, and packaging for Wind
     * Build and run
     
             py lovepackager.py --config=project.json --run
+            
+    This produces the following file (from [the test](https://github.com/edwinhollen/LovePackager/tree/master/test)):
+        
+        MyLoveGame v5.0.love/
+            main.lua
+            assets/
+                testasset.txt
+                testimage.png
         
 ### Package for other platforms
 

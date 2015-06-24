@@ -1,6 +1,6 @@
 {
-  "name": "MyTestGame v1.0",
-  "sources": ["src/*", "assets/"],
+  "name": "MyLoveGame v5.0",
+  "sources": ["src/*.lua", "assets/"],
   "output": "build/",
   "love": "C:/love/love.exe"
 }
