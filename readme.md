@@ -31,11 +31,11 @@ Easy building of [LÖVE](https://love2d.org) .love files, and packaging for Wind
 
     * Build
     
-        py lovepackager.py --config=project.json
+            py lovepackager.py --config=project.json
         
     * Build and run
     
-        py lovepackager.py --config=project.json --run
+            py lovepackager.py --config=project.json --run
         
 ### Package for other platforms
 
