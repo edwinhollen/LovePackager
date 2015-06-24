@@ -36,7 +36,7 @@ def build(config):
 
 def run(config, love_file):
     print("running...")
-    love = config["love"] or shutil.which("love")
+    love = config["love"] if ("love" in config) else shutil.which("love")
     process = subprocess.Popen([love, love_file])
     pass
 
