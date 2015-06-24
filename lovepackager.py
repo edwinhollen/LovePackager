@@ -30,14 +30,13 @@ def build(config):
         # move to love
         print("making .love...")
         return shutil.move(zip, os.path.splitext(zip)[0]+".love")
-
     pass
 
 
 def run(config, love_file):
     print("running...")
     love = config["love"] if ("love" in config) else shutil.which("love")
-    process = subprocess.Popen([love, love_file])
+    process = subprocess.Popen([love, love_file, "--console"])
     pass
 
 
